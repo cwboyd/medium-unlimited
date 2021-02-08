@@ -8,7 +8,6 @@ export function log(...messages) {
 }
 
 export function init() {
-  chrome.runtime.setUninstallURL('https://manojvivek.typeform.com/to/c0VaBs');
 }
 
 export function urlWithoutQueryParams(url) {
