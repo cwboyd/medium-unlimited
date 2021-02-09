@@ -1,7 +1,7 @@
 {
-  "name": "Medium Unlimited: Read paid content for free!",
-  "description": "Unlocks medium.com for unlimited reads, no membership required",
-  "short_name": "Medium Unlimited",
+  "name": "Medium Unlimited (private fork)",
+  "description": "Medium Unlimited (private fork)",
+  "short_name": "Medium Unlimited (private fork)",
   "version": "1.5.0",
   "manifest_version": 2,
   "background": {
@@ -9,7 +9,14 @@
   },
   "browser_action": {
     "default_icon": "static/logo_128.png",
-    "default_title": "Unlock Medium.com Article"
+    "default_title": "Unlock Medium.com Article (private fork)"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{dd3e6c56-0029-4e36-a730-7e901094ee7b}",
+      "strict_min_version": "42.0",
+      "update_url": "https://github.com/cwboyd/medium-unlimited/"
+    }
   },
   "icons": {
     "16": "static/logo_16.png",
